@@ -1,6 +1,12 @@
 body {
-	background: whitesmoke;
+	background: radial-gradient(
+			circle at 10% 20%,
+			rgb(254, 255, 165) 0%,
+			rgb(255, 232, 182) 90%
+		)
+		fixed;
 	font-family: "Poppins", sans-serif;
+	margin: 0;
 }
 
 .container {
@@ -28,8 +34,8 @@ h1 {
 }
 
 button {
-	background-color: purple;
-	border: 2px solid purple;
+	background-color: indigo;
+	border: 2px solid indigo;
 	border-radius: 32px;
 	color: white;
 	display: block;
@@ -42,7 +48,7 @@ button {
 
 button:hover {
 	background-color: white;
-	color: purple;
+	color: indigo;
 	cursor: pointer;
 }
 
@@ -66,6 +72,7 @@ footer {
 }
 
 footer a {
+	color: indigo;
 	font-weight: 600;
 	line-height: 1;
 }
