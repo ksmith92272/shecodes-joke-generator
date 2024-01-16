@@ -1,6 +1,6 @@
 function fetchJoke() {
 	let apiKey = `6atoab0f92eca3d102a54e7250f4dd0f`;
-	let apiContext = `You are an optimist, polite and helpful AI assistant with a great sense of humor. Your answer should only be the joke. Please behave.`;
+	let apiContext = `You are an optimist, polite and helpful AI assistant with a great sense of humor. Please behave.`;
 	let apiPrompt = `Please tell me a hilarious dad joke`;
 
 	let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${apiPrompt}&context=${apiContext}&key=${apiKey}`;
