@@ -1,14 +1,23 @@
 body {
 	background: whitesmoke;
+	font-family: "Poppins", sans-serif;
 }
 
 .container {
 	background: white;
 	border-radius: 16px;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+		rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 	display: block;
 	margin: 48px auto;
+	min-height: 388px;
 	padding: 24px 32px;
 	width: 360px;
+}
+
+header {
+	border-bottom: 1px solid lightgray;
+	padding-bottom: 16px;
 }
 
 h1 {
@@ -23,7 +32,7 @@ button {
 	display: block;
 	font-size: 16px;
 	font-weight: 600;
-	margin: 16px auto;
+	margin: 24px auto;
 	padding: 16px;
 	transition: all 200ms ease-in-out;
 }
@@ -32,6 +41,10 @@ button:hover {
 	background-color: white;
 	color: purple;
 	cursor: pointer;
+}
+
+main {
+	padding: 24px 0;
 }
 
 h2 {
